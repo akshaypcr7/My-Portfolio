@@ -29,7 +29,7 @@ const projects = [
     description:
       "An AI-powered assistant web application supporting intelligent conversations and AI image generation with secure authentication and credit-based usage.",
     image: quickgpt,
-    live: "https://quick-gpt-ggh7-h1g50advu-pathare-1986s-projects.vercel.app/",
+    live: "https://quick-gpt.vercel.app",
     github: "https://github.com/Pathare-1986/QuickGpt",
     tech: [
       "React",
@@ -47,7 +47,7 @@ const projects = [
     description:
       "A modern resume builder with customizable templates, AI-generated summaries, real-time preview, and secure authentication.",
     image: resumecraft,
-    live: "https://resume-craft-git-main-pathare-1986s-projects.vercel.app/",
+    live: "https://resume-craft-ruby.vercel.app/",
     github: "https://github.com/Pathare-1986/resume-craft",
     tech: [
       "React",
