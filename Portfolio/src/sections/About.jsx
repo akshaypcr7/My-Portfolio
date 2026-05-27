@@ -10,8 +10,8 @@ const About = () => {
   ];
  const stats = [
   { label: "Experience", value: "Fresher" },
-  { label: "Specialization", value: "Full-Stack Development" },
-  { label: "Focus Areas", value: "UI & Performance" },
+  { label: "Specialization", value: "AI Engineer" },
+  { label: "Focus Areas", value: "LLM, RAG" },
 ];
 
   return (
@@ -51,17 +51,13 @@ const About = () => {
 
           <div className="flex-1 flex flex-col justify-center text-center md:text-left">
             <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#1cd8d2]">
-              Tushar Pathare
+              Akshay Pisal
             </h2>
             <p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
-              Full Stack Developer
+              AI Engineer
             </p>
             <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-              I build modern, responsive web applications with a strong focus on
-              clean UI, performance. I have hands-on experience building
-              real-world projects using React, Vite, JavaScript, Node.js,
-              Express, MongoDB, and Tailwind CSS, and I enjoy turning ideas into
-              reliable and user-friendly solutions.
+              I'm a passionate AI Engineer with experience in developing and deploying machine learning models. I have a strong foundation in AI fundamentals and other AI frameworks.
             </p>
             <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-xl">
               {stats.map((item, i) => (
@@ -105,15 +101,7 @@ const About = () => {
         >
           <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">About Me</h3>
           <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
-            I’m a passionate web developer with hands-on experience building
-            real-world web applications through projects and practical learning.
-            I enjoy working with modern web technologies and building clean,
-            responsive, and user-friendly interfaces.
-          </p>
-          <p className="mt-4 text-gray-400 text-base sm:text-lg">
-            I’m always eager to learn new tools, improve my problem-solving
-            skills, and contribute to meaningful projects that create real
-            impact.
+            I'm a passionate AI Engineer with experience in developing and deploying machine learning models. I have a strong foundation in AI fundamentals and other AI frameworks. I’m always eager to learn new tools, improve my problem-solving skills, and contribute to meaningful projects that create real impact.
           </p>
         </motion.div>
       </div>

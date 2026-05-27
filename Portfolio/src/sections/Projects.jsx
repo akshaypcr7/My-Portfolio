@@ -7,7 +7,7 @@ import resumecraft from "../assets/resume-h.png";
 
 const projects = [
   {
-    title: "MediNest",
+    title: "Financial AI Agent stocks",
     description:
       "A full-stack medical appointment platform with patient, doctor, and admin dashboards, secure authentication, image uploads, and appointment management.",
     image: medinest,
@@ -25,7 +25,7 @@ const projects = [
     ],
   },
   {
-    title: "QuickGPT",
+    title: "Nividia NIM Rag application",
     description:
       "An AI-powered assistant web application supporting intelligent conversations and AI image generation with secure authentication and credit-based usage.",
     image: quickgpt,
@@ -43,7 +43,7 @@ const projects = [
     ],
   },
   {
-    title: "ResumeCraft",
+    title: "Self rounting Ai Agent chatbot",
     description:
       "A modern resume builder with customizable templates, AI-generated summaries, real-time preview, and secure authentication.",
     image: resumecraft,
@@ -90,7 +90,7 @@ const Projects = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        Some things I’ve built using modern web technologies
+        Some things I’ve built using modern AI technologies
       </motion.p>
 
       {/* Cards */}

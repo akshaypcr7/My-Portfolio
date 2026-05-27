@@ -6,12 +6,12 @@ const Footer = () => {
     {
       Icon: FaLinkedin,
       label: "Linkedin",
-      href: "https://www.linkedin.com/in/tushar-pathare-430865253/",
+      href: "https://www.linkedin.com/in/akshay-pisal-729445199/",
     },
     {
       Icon: FaGithub,
       label: "GitHub",
-      href: "https://github.com/Pathare-1986",
+      href: "https://github.com/akshaypcr7",
     },
   ];
 
@@ -55,7 +55,7 @@ bg-[radial-gradient(50%_55%_at_30%_70%,rgba(16,185,129,0.30),transparent_70%)]"
           }}
           className="font-semibold leading-none text-white text-center select-none"
         >
-          Tushar Pathare
+          Akshay Pisal
         </h1>
         <div className="h-[3px] w-24 md:w-32 rounded-full bg-gradient-to-r from-[#0d58cc] via-cyan-300 to-emerald-400" />
 
@@ -81,7 +81,7 @@ bg-[radial-gradient(50%_55%_at_30%_70%,rgba(16,185,129,0.30),transparent_70%)]"
           "Sucess is when preparation meets opportunity."
         </p>
         <p>
-          &copy; {new Date().getFullYear()} Tushar Pathare. All rights reserved.
+          &copy; {new Date().getFullYear()} Akshay Pisal. All rights reserved.
         </p>
       </motion.div>
     </footer>

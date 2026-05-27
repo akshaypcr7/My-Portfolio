@@ -6,7 +6,7 @@ import avator from "../assets/avator.png";
 
 const Home = () => {
   const roles = useMemo(
-    () => ["MERN Stack Developer", "Software Developer"],
+    () => ["AI/ML Engineer", "Junior Data Scientist"],
     []
   );
 
@@ -14,12 +14,12 @@ const Home = () => {
     {
       Icon: FaLinkedin,
       label: "Linkedin",
-      href: "https://www.linkedin.com/in/tushar-pathare-430865253/",
+      href: "https://www.linkedin.com/in/akshay-pisal-729445199/",
     },
     {
       Icon: FaGithub,
       label: "GitHub",
-      href: "https://github.com/Pathare-1986",
+      href: "https://github.com/akshaypcr7",
     },
   ];
 
@@ -115,7 +115,7 @@ const Home = () => {
             >
               Hello, I'm <br />
               <span className="text-white font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl lg:whitespace-nowrap mr-5">
-                Tushar Pathare
+                Akshay Pisal
               </span>
             </motion.h1>
 
@@ -125,8 +125,7 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              I’m a passionate web developer focused on building modern, fast,
-              and user-friendly web applications.
+              
             </motion.p>
 
             <motion.div

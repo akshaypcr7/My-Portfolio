@@ -75,7 +75,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           <img src={Logo} className="w-9 h-8" alt="portfolio-logo" />
           <div className="text-2xl font-bold text-white hidden sm:block">
-            Tushar
+            Akshay Pisal
           </div>
         </div>
         <div className="block lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">

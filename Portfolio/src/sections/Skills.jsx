@@ -3,6 +3,7 @@ import { motion, AnimatePresence, useMotionValue } from "framer-motion";
 
 // Font Awesome
 import { FaJava, FaReact, FaGithub, FaHtml5 } from "react-icons/fa";
+import { SiPython, SiHuggingface } from "react-icons/si";
 
 // Simple Icons
 import {
@@ -20,18 +21,13 @@ import { DiNodejsSmall } from "react-icons/di";
 
 const Skills = () => {
   const skills = [
-    { icon: <FaHtml5 />, name: "HTML5" },
-    { icon: <SiCss3 />, name: "CSS3" },
-    { icon: <SiJavascript />, name: "JavaScript" },
-    { icon: <FaReact />, name: "React" },
-    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-    { icon: <DiNodejsSmall />, name: "Node.js" },
-    { icon: <SiExpress />, name: "Express.js" },
-    { icon: <SiMongodb />, name: "MongoDB" },
-    { icon: <SiEjs />, name: "EJS" },
+    { icon: <SiPython />, name: "Python" },
+    { icon: "🔗", name: "LangChain" },
+    { icon: "🧠", name: "LangGraph" },
+    { icon: <SiHuggingface />, name: "HuggingFace" },
+    { icon: "🧩", name: "CNNs" },
     { icon: <SiGit />, name: "Git" },
     { icon: <FaGithub />, name: "GitHub" },
-    { icon: <FaJava />, name: "Java" },
   ];
 
   const repeated = [...skills, ...skills];
@@ -50,7 +46,7 @@ const Skills = () => {
       ([entry]) => {
         setActive(entry.isIntersecting && entry.intersectionRatio > 0.1);
       },
-      { threshold: [0.1] }
+      { threshold: [0.1] },
     );
     io.observe(el);
     return () => io.disconnect();
@@ -88,14 +84,14 @@ const Skills = () => {
 
       if (loop) {
         if (next <= -loop) next += loop;
-        if(next >= 0) next-=loop;
+        if (next >= 0) next -= loop;
       }
-      x.set(next)
-      id = requestAnimationFrame(tick)
+      x.set(next);
+      id = requestAnimationFrame(tick);
     };
     id = requestAnimationFrame(tick);
-    return ()=>cancelAnimationFrame(id)
-  },[dir]);
+    return () => cancelAnimationFrame(id);
+  }, [dir]);
 
   return (
     <section
@@ -169,7 +165,7 @@ const Skills = () => {
       <div className="relative w-full overflow-hidden">
         <motion.div
           ref={tracKRef}
-          style={{x,whiteSpace:"nowrap",willChange:"transform"}}
+          style={{ x, whiteSpace: "nowrap", willChange: "transform" }}
           className="flex gap-10 text-6xl text-[#1cd8d2]"
         >
           {repeated.map((s, i) => (
