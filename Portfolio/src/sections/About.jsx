@@ -57,7 +57,7 @@ const About = () => {
               AI Engineer
             </p>
             <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-              I'm a passionate AI Engineer with experience in developing and deploying machine learning models. I have a strong foundation in AI fundamentals and other AI frameworks.
+              I'm a passionate AI Engineer with experience in developing and deploying Gen AI Models. I have a strong foundation in AI fundamentals and other AI frameworks.
             </p>
             <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-xl">
               {stats.map((item, i) => (
